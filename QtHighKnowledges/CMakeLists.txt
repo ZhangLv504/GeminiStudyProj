@@ -25,7 +25,6 @@ file(GLOB_RECURSE APP_SOURCES CONFIGURE_DEPENDS
 
 add_executable(QtHighKnowledges
     ${APP_SOURCES}
-        src/main.cpp
 )
 
 target_include_directories(QtHighKnowledges PRIVATE
